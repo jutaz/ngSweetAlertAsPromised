@@ -1,5 +1,5 @@
 {
-	"name": "ngSweetAlertPromised",
+	"name": "ngSweetAlertAsPromised",
 	"version": "1.0.0",
 	"main": "./SweetAlert.js",
 	"authors": [

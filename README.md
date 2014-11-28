@@ -10,12 +10,12 @@ AngularJS wrapper for [SweetAlert](http://tristanedwards.me/sweetalert) built wi
 ## Install
 1. download the files
 	1. Bower
-		1. `bower install angular-sweetalert-promised`
+		1. `bower install angular-sweetalert-as-promised`
 2. include the files in your app
 	1. `Alert.min.js`
 	2. `sweet-alert.js` OR `sweet-alert.min.js`
 	3. `sweet-alert.css`
-3. include the module in angular (i.e. in `app.js`) - `jutaz.ngSweetAlertPromised`
+3. include the module in angular (i.e. in `app.js`) - `jutaz.ngSweetAlertAsPromised`
 
 ## Examples
 

@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	angular.module('jutaz.ngSweetAlertPromised', []).factory('SweetAlert',
+	angular.module('jutaz.ngSweetAlertAsPromised', []).factory('SweetAlert',
 	['$window', '$q', function ($window, $q) {
 
 		var swal = $window.swal;
