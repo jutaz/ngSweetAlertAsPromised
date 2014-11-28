@@ -1,9 +1,6 @@
-# AngularJS wrapper for SweetAlert
+# Promised AngularJS wrapper for SweetAlert
 
-AngularJS wrapper for [SweetAlert](http://tristanedwards.me/sweetalert). Sweet Alert is a beautiful replacement for Javascript's "Alert".
-
-## Demo
-[http://oitozero.github.io/ngSweetAlert/](http://oitozero.github.io/ngSweetAlert/)
+AngularJS wrapper for [SweetAlert](http://tristanedwards.me/sweetalert) built with Promises. Sweet Alert is a beautiful replacement for Javascript's "Alert".
 
 ## Dependencies
 - required:  
@@ -13,15 +10,43 @@ AngularJS wrapper for [SweetAlert](http://tristanedwards.me/sweetalert). Sweet A
 ## Install
 1. download the files
 	1. Bower
-		1. add `"angular-sweetalert": "latest"` to your `bower.json` file then run `bower install` OR run `bower install angular-sweetalert`
+		1. `bower install angular-sweetalert-promised`
 2. include the files in your app
 	1. `Alert.min.js`
 	2. `sweet-alert.js` OR `sweet-alert.min.js`
 	3. `sweet-alert.css`
-3. include the module in angular (i.e. in `app.js`) - `oitozero.ngSweetAlert`
+3. include the module in angular (i.e. in `app.js`) - `jutaz.ngSweetAlertPromised`
+
+## Examples
+
+### Simple
+
+```js
+SweetAlert.success({
+	message: "Here's a message"
+}).then(function () {
+	// User closed alert
+});
+
+```
+
+### With cancel
+
+```js
+SweetAlert.warning({
+	message: "Are you sure?",
+	text: "Your will not be able to recover this imaginary file!",
+	showCancelButton: true,
+	confirmButtonColor: "#DD6B55",
+	confirmButtonText: "Yes, delete it!"
+}).then(function () {
+	// User accepted
+}, function () {
+	// User declined
+});
+```
 
 
 ## Documentation
 
-- [http://oitozero.github.io/ngSweetAlert/](http://oitozero.github.io/ngSweetAlert/)
 - [http://tristanedwards.me/sweetalert](http://tristanedwards.me/sweetalert)
