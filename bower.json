@@ -1,12 +1,11 @@
 {
-	"name": "ngSweetAlert",
-	"version": "1.0.3",
+	"name": "ngSweetAlertPromised",
+	"version": "1.0.0",
 	"main": "./SweetAlert.js",
 	"authors": [
-		"pedro@oitozero.com",
-		"gnick666@gmail.com"
+		"jutaz@jutaz.lt"
 	],
-	"description": "AngularJS wrapper for SweetAlert",
+	"description": "Promised AngularJS wrapper for SweetAlert",
 	"keywords": [
 		"angular",
 		"AngularJs",
@@ -24,7 +23,7 @@
 		"CHANGELOG.md"
 	],
 	"dependencies": {
-		"angular":"~1.2.0",
+		"angular":"~1.3.0",
 		"sweetalert":"~0.3.0"
 	},
 	"devDependencies": {
