@@ -24,7 +24,7 @@
 	],
 	"dependencies": {
 		"angular":"~1.2.0",
-		"sweetalert":"~0.3.0"
+		"sweetalert":"~0.4.0"
 	},
 	"devDependencies": {
 	}
