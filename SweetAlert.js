@@ -9,13 +9,9 @@
 		var self = {
 			swal: function (options) {
 				var defer = $q.defer();
-				swal(options, function (isConfirm) {
-					if (!isConfirm) {
-						defer.reject();
-					} else {
-						defer.resolve();
-					}
-				});
+				swal(options)
+					.then(defer.resolve)
+					.catch(defer.reject);
 				return defer.promise;
 			},
 			success: function(options) {
