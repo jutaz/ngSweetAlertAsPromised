@@ -5,7 +5,7 @@ AngularJS wrapper for [SweetAlert](http://tristanedwards.me/sweetalert) built wi
 ## Dependencies
 - required:  
 	[AngularJS](https://github.com/angular/angular)  
-	[sweetalert](https://github.com/t4t5/sweetalert)
+	[sweetalert2](https://github.com/limonte/sweetalert2)
 
 ## Install
 1. download the files
@@ -49,4 +49,4 @@ SweetAlert.warning({
 
 ## Documentation
 
-- [http://tristanedwards.me/sweetalert](http://tristanedwards.me/sweetalert)
+- [https://limonte.github.io/sweetalert2/](https://limonte.github.io/sweetalert2/)
